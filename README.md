@@ -5,7 +5,7 @@
 
 ## **Introducción**
 
-Dentro de este redme encontraras detalles acerca de un proyecto de DATA ENGINEER a un dataset de películas de las plataformas “Amazon premier”, “Disney plus”, “Hulu” y “Netflix. Este proyecto fue realizado por ELOY ARMAO estudiante de la carrera de DATA SCIENCE en la academia HENRY.
+Dentro de este redme encontraras detalles acerca de un proyecto de DATA ENGINEER a un dataset de películas de las plataformas “Amazon premier”, “Disney plus”, “Hulu” y “Netflix. Este proyecto fue realizado por ELOY ARMAO estudiante de la carrera de DATA SCIENCE en la academia HENRY.  More information about the academy in the following link https://www.soyhenry.com/carrera-data-science
 
 `Application Programming Interface` es una interfaz que permite que dos aplicaciones se comuniquen entre sí, independientemente de la infraestructura subyacente. Son herramientas muy versátiles y fundamentales para la creación de, por ejemplo, pipelines, ya que permiten mover y brindar acceso simple a los datos que se quieran disponibilizar a través de los diferentes endpoints, o puntos de salida de la API.
 
@@ -91,7 +91,7 @@ Se extrajo cada uno de los dataset suministrados, se transformaron en dataframes
 Se realizaron las consultas necesarias para determinar que tipo de datos están presentes en cada columna de nuestro dataframe y que no hubiesen filas duplicadas. Se extrajo la información de cuantas valores nulos tenia cada columna y se procedió hacer un análisis de esta información, determinando que seria más factible empezar realizando consultas sobre las columnas que poseían pocos valores nulos y que fuesen relevantes para hacer las consultas sobre nuestra API. Cada valor nulo se relleno con la cadena “Sin Dato”. Se
 
  
-**`Parte 3). Scraping a los mismos datos y web scraping. OJO, esto lo haremos ya que no contamos con una API ofifical para corroborar los datos sumnistrados`**
+**`Parte 3). Scraping a los mismos datos y web scraping. Nota importante, esto lo haremos ya que no contamos con una API ofifical para corroborar los datos sumnistrados`**
 
 El obetivo del scraping y web scraping es tratar de rellenar la mayor cantidad de valores nulo en nuestro dataframe.
 
@@ -124,7 +124,7 @@ Se dividió el dataframe en dos, creando así dataframes uno para películas y o
 
 	Se creo la función de búsqueda, la cual varia para cada tipo pagina web y cada tipo de dataframe ya sea películas o tv show. Se trabajo con las librerías request y bs4. Se hizo una petición a una página en específico con la funcion request y si esta nos da como codigo 200 empezamos a utilizar la clase Beautifulsoup para para pasear el html y poder realizar la operaciones, para obtener la información que precisamos. 
 
-	La información obtenida de cada búsqueda en bruto se guardo en archivos de tipo csv. Se realizo la limpieza de cada busqueda para luego cruzada con el dataframe original.
+	La información obtenida de cada búsqueda en bruto se guardo en archivos de tipo csv. Se realizo la limpieza de cada busqueda para luego ser cruzada con el dataframe original.
 
 	Los criterios que se tomaron para cruzar la data se asemejan mucho al criterio que se tomo durante el scraping.
 
