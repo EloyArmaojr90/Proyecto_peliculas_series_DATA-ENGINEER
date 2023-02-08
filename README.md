@@ -5,7 +5,7 @@
 
 ## **Introducción**
 
-Dentro de este redme encontraras detalles acerca de un proyecto de DATA ENGINEER a un dataset de películas de las plataformas “Amazon premier”, “Disney plus”, “Hulu” y “Netflix. Este proyecto fue realizado por ELOY ARMAO estudiante de la carrera de DATA SCIENCE en la academia HENRY.  More information about the academy in the following link https://www.soyhenry.com/carrera-data-science
+Dentro de este redme encontraras detalles acerca de un proyecto de DATA ENGINEER a un dataset de películas de las plataformas “Amazon premier”, “Disney plus”, “Hulu” y “Netflix. Este proyecto fue realizado por ELOY ARMAO estudiante de la carrera de DATA SCIENCE en la academia HENRY.  Para más informacion visitar la pagina https://www.soyhenry.com/carrera-data-science
 
 `Application Programming Interface` es una interfaz que permite que dos aplicaciones se comuniquen entre sí, independientemente de la infraestructura subyacente. Son herramientas muy versátiles y fundamentales para la creación de, por ejemplo, pipelines, ya que permiten mover y brindar acceso simple a los datos que se quieran disponibilizar a través de los diferentes endpoints, o puntos de salida de la API.
 
@@ -56,10 +56,6 @@ Imagen Docker con Uvicorn/Guinicorn para aplicaciones web de alta performance:
 
 + https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
 
-	Mogenius Deployment
-
-+ https://mogenius.com/home 
-
 	FAST API Documentation:
 
 + https://fastapi.tiangolo.com/tutorial/
@@ -93,7 +89,7 @@ Se realizaron las consultas necesarias para determinar que tipo de datos están 
  
 **`Parte 3). Scraping a los mismos datos y web scraping. Nota importante, esto lo haremos ya que no contamos con una API ofifical para corroborar los datos sumnistrados`**
 
-El obetivo del scraping y web scraping es tratar de rellenar la mayor cantidad de valores nulo en nuestro dataframe.
+El objetivo del scraping y web scraping es tratar de rellenar la mayor cantidad de valores nulo en nuestro dataframe.
 
 Se dividió el dataframe en dos, creando así dataframes uno para películas y otro para tv show, respectivamente.
 
