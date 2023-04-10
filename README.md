@@ -84,7 +84,7 @@ Se extrajo cada uno de los dataset suministrados, se transformaron en dataframes
 
 **`Parte 2). Limpieza del dataframe concatenado`**:
 
-Se realizaron las consultas necesarias para determinar que tipo de datos están presentes en cada columna de nuestro dataframe y que no hubiesen filas duplicadas. Se extrajo la información de cuantas valores nulos tenia cada columna y se procedió hacer un análisis de esta información, determinando que seria más factible empezar realizando consultas sobre las columnas que poseían pocos valores nulos y que fuesen relevantes para hacer las consultas sobre nuestra API. Cada valor nulo se relleno con la cadena “Sin Dato”. Se
+Se realizaron las consultas necesarias para determinar que tipo de datos están presentes en cada columna de nuestro dataframe y que no hubiesen filas duplicadas. Se extrajo la información de cuantas valores nulos tenia cada columna y se procedió hacer un análisis de esta información, determinando que seria más factible empezar realizando consultas sobre las columnas que poseían pocos valores nulos y que fuesen relevantes para hacer las consultas sobre nuestra API. Cada valor nulo se relleno con la cadena “Sin Dato”.
 
  
 **`Parte 3). Scraping a los mismos datos y web scraping. Nota importante, esto lo haremos ya que no contamos con una API ofifical para corroborar los datos sumnistrados`**
@@ -101,7 +101,7 @@ Se dividió el dataframe en dos, creando así dataframes uno para películas y o
 
 	El criterio que se tomo para rellenar los valores “Sin Dato” fue el siguiente:
 
-	Podemos decir que dos o más filas que contienen el mismo título de películas son iguales, si los valores de la columna "director" o columna "cast" o columna "release_year" o columna "duration".
+	Podemos decir que dos o más filas que contienen el mismo título de películas son iguales, si los valores de la columna "director" o columna "cast" o columna "release_year" o columna "duration" son iguales.
 
 	El criterio mencionado anterior se dedujo de lo siguiente: 
 
