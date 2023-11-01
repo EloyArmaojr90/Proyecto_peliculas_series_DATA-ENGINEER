@@ -105,3 +105,7 @@ async def get_actor(plataforma: str, año: int):
     dic[actor_max] = pmax                                  # Agregamos al diccionario 
         
     return dic 
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
