@@ -1,7 +1,7 @@
+from fastapi import APIRouter
 from pydantic import BaseModel
 import pandas as pd
 
-log = logging.getLogger(__name__)
 router = APIRouter()
 
 ####### ***********################***************####### FASTAPI FUNCTIONS #######***********################*************** #######
