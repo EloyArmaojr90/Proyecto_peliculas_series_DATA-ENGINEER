@@ -1,4 +1,5 @@
 FROM python:3.10
+COPY ./requirements.txt ./requirements.txt
 WORKDIR /proyecto
 
 RUN pip install -r requirements.txt
