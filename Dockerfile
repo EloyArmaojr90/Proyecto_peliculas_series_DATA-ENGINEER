@@ -2,7 +2,7 @@ FROM python:3.10
 WORKDIR /proyecto
 
 RUN pip install -r requirements.txt
-COPY . proyecto
+COPY . /proyecto
 
 EXPOSE 8000
 
