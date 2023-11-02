@@ -1,4 +1,4 @@
-fastapi==0.88.0  #Framework
-uvicorn==0.20.0  #Servidor
-pandas==1.4.4    #Librería
-pydantic==1.10.2 
+fastapi  #Framework
+uvicorn  #Servidor
+pandas    #Librería
+pydantic 
